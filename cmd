@@ -24,7 +24,11 @@ git branch -M main
 git push -u origin main
 
 
-
+git init
+git add .
+git commit -m "netmessage"
+git remote add origin  https://github.com/yriad/blog.git
+git push -u origin master
 
 git init
 git add .
