@@ -54,5 +54,5 @@ Deploy your application
 Commit your code to the repository and deploy it to Heroku using Git.
 
  git add .
- git commit -am "make it better"
+ git commit -am "make it heroku"
  git push heroku master
