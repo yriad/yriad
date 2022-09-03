@@ -47,12 +47,9 @@ git pull --rebase origin main
 git push origin main
 
 heroku login
- cd my-project/
 git init
 heroku git:remote -a ofenblog
-Deploy your application
-Commit your code to the repository and deploy it to Heroku using Git.
 
  git add .
- git commit -am "make it heroku"
+ git commit -am "make it MOP"
  git push heroku master
